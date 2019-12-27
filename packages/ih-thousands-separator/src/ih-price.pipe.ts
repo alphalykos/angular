@@ -15,7 +15,7 @@ export class IhPricePipe implements PipeTransform {
     private THOUSANDS_SEPARATOR: string;
 
     constructor() {
-        this.THOUSANDS_SEPARATOR = '.';
+        this.THOUSANDS_SEPARATOR = ',';
     }
 
     /**
